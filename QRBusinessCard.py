@@ -1,14 +1,12 @@
 import tkinter as tk
 import qrcode
 import png
-import tracemalloc
 # from tkinter import *
 from tkinter import messagebox,filedialog,PhotoImage,Tk,ttk,Frame,Label,Button,Entry,Text,StringVar,mainloop,RIDGE
 from resizeimage import resizeimage
 from PIL import Image, ImageTk
 
 
-tracemalloc.start()
 class QGen:
     def __init__(self, root):
         self.root = root
@@ -111,7 +109,5 @@ if __name__ == '__main__':
     root = tk.Tk()
     o = QGen(root)
     root.mainloop()
-    print(tracemalloc.get_traced_memory())
-    tracemalloc.stop
 else:
     print('Client exit!')
