@@ -3,8 +3,8 @@ QRBcard is a simple Python script that generates a business card with a QR code.
 
 # Requirements
 * Python 3.x
-* Pillow library (can be installed with pip install Pillow)
-* qrcode library (can be installed with pip install qrcode)
+* Pillow library (can be installed with ```pip install Pillow```)
+* qrcode library (can be installed with ```pip install qrcode```)
 
 # Usage
 1. Clone this repository: git clone https://github.com/MaxSSD/QRBcard.git
